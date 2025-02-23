@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensures content is centered vertically */
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+h2, p, label {
+    color: blue; /* All words in blue */
+}
+
+input {
+    display: block;
+    width: 90%;
+    padding: 8px;
+    margin: 10px auto;
+    border: 2px solid green; /* Green color boxes */
+    border-radius: 5px;
+    background-color: #eaffea; /* Light green background */
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid blue; /* Blue border */
+    background-color: white;
+    color: blue;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
